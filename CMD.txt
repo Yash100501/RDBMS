@@ -1,0 +1,34 @@
+
+        cout << "\nCREATE TABLE: Creates a new table" << endl;
+        cout << "\nCommand Structure: \n\tCREATE TABLE table_name (attr_name1 attr_type1 , attr_name2 attr_type2, ...)" << endl;
+        
+
+        cout << "\nDROP TABLE: Deletes a table" << endl;
+        cout << "\nCommand Structure: \n\tDROP TABLE table_name;" << endl;
+       
+	  cout << "\nDESCRIBE T_NAME" << endl;
+        cout << "\nCommand Structure: \n\tDescribes the schema of table T_NAME." << endl;
+        
+	  cout << "\nINSERT: Inserts new data into a database" << endl;
+        cout << "\nCommand Structure: \n\tINSERT INTO table_name VALUES(attr_value1, attr_value2, ...); \n\t*Note that NULL is not permitted for any attribute" << endl;
+        
+        cout << "\nDELETE: Deletes data from a database" << endl;
+        cout << "\nCommand Structure: \n\tDELETE FROM table_name WHERE condition_list;" << endl;
+        break;
+
+   
+        cout << "\nUPDATE: Updates data in a database" << endl;
+        cout << "\nCommand Structure: \n\tUPDATE table_name SET attr1_name = attr1_value WHERE condition_list;" << endl;
+        break;
+
+    
+        cout << "\nSELECT: Extracts data from a database" << endl;
+        cout << "\nCommand Structure: \n\tSELECT attr_list FROM table_list WHERE condition_list;" << endl;
+        break;
+
+    
+        cout << "\nQUIT: Extracts data from a database" << endl;
+        cout << "\nCommand Structure: \n\tQ" << endl;
+        break;
+
+    
